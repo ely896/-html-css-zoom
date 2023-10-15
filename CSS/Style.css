@@ -31,7 +31,6 @@ body{
     margin-right: 1rem;
 }
 
-
 .btn {
     height: 1.5rem;
     padding: 0.5 rem 0.5rem;
@@ -48,15 +47,13 @@ body{
 .container {
     width: 90%;
     margin: auto;
-    margin-top: 35px;
+    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem 0.25rem;
-    /* max-width: 1176px; */
-    /* margin: auto; */
-    /* display: flex;
-    flex-wrap: wrap; */
+    gap: 0.5rem 0.25rem;  
 }
+
+/*Region Video-Box*/
 
 .video-box {
     width: calc((100% / 7) - 0.5rem);
@@ -67,8 +64,6 @@ body{
 .video-box img {
     max-width: 100%;
 }
-
-
 
 .btn-transparent {
     background-color: var(--zoom-lightgray);
