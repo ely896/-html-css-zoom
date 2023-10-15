@@ -4,3 +4,79 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --zoom-dark: #000000;
+    --zoom-gray: #222222; 
+    --zoom-lightgray: #4a4a4a;
+    --zoom-white: #ffffff; 
+    --zoom-success: #4bc800;
+    --zoom-danger: #c12538;
+}
+
+body{
+    /* background-color: var(--zoom-dark); */
+    color: var(--bool-white);
+    
+}
+
+#site_main {
+    background-color: var(--zoom-dark);
+    height: 100vh;
+}
+
+.view {
+    padding-top: 0.5rem;
+    text-align: end;
+    margin-right: 1rem;
+}
+
+
+.btn {
+    height: 1.5rem;
+    padding: 0.5 rem 0.5rem;
+    border: none;
+    text-align: center; 
+}
+
+.btn-gray {
+    background-color: var(--zoom-lightgray);
+    color: var(--zoom-white);
+    border-radius: 0.25rem; 
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.25rem;
+    /* max-width: 1176px; */
+    /* margin: auto; */
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.video-box {
+    width: calc((100% / 7) - 0.5rem);
+    /* border: 2px solid bisque; */
+    position: relative;  
+}
+
+.video-box img {
+    max-width: 100%;
+}
+
+
+
+.btn-transparent {
+    background-color: var(--zoom-lightgray);
+    opacity: 0.7;
+    color: var(--zoom-white);
+    width: 150px;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+}
+
