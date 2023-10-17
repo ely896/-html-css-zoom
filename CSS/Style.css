@@ -20,7 +20,8 @@ body{
 
 #site_main {
     background-color: var(--zoom-dark);
-    height: 100vh;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
 }
 
 .speaker {
@@ -56,6 +57,7 @@ a {
 
 .container {
     width: 90%;
+    height: calc(100vh -80px);
     margin: auto;
     margin-top: 1rem;
     display: flex;
@@ -91,7 +93,7 @@ a {
     color: var(--zoom-white);
     text-align: center;
     display: flex;
-    
+    justify-content: space-between;  
 }
 
 .tooleft {
@@ -108,8 +110,6 @@ a {
 }
 
 .toolrigth {
-    display: flex;
-    justify-content: center;
     text-align: center;
     line-height: 80px;
     background-color: var(--zoom-lightgray);
